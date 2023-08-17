@@ -13,7 +13,7 @@ myImage.addEventListener('mouseover', () => {
 
 myImage.addEventListener('mouseout', () => {
   section.style.backgroundColor = '';
-  text.textContent = '';
+  text.textContent = 'Humans are ok-ish';
   const mySrc = myImage.getAttribute('src');
   if (mySrc === 'images/dog3.jpeg') {
     myImage.setAttribute('src', 'images/person.jpeg');
